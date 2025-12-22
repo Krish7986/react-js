@@ -1,0 +1,110 @@
+.nav{
+    display: flex;
+    column-gap: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-size: large;
+    font-weight: bolder;
+    padding: 30px;
+    
+}
+.card {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border: 2px black solid;
+    width: 270px;
+    height: 370px;
+    border-radius: 5px;
+    background-color: lightgrey;
+
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card:hover{
+    box-shadow: 0 4px 5px 3px salmon;
+}
+.card img{
+    width: 170px;
+    height: 200px;
+    padding-left: 15px;
+    display: inline-block;
+    object-fit: cover;
+
+}
+.card h5,p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+    color: grey;
+    display: grid;
+    padding-left: 10px;
+    margin: 5px 0;
+
+    
+}
+.card-card{
+    padding-top: 10px;
+    box-sizing: border-box;
+    width: 270px;
+    
+
+    
+   
+}
+.card img:hover{
+    scale: 1.1;
+
+}
+.card-footer{
+    display: flex;
+}
+.card-footer img{
+    width: 30px;
+    height: 30px;
+
+
+}
+.main-card{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+}
+.main-card :hover{
+    scale: 1.01;
+
+}
+
+.logo{
+    display: grid;
+    gap: 10px;
+    float: right;
+}
+.list p{
+    
+    border: 5px black;
+    padding-top: 10px;
+    
+}
+.list{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    
+    justify-content: center;
+    padding-left: 50px;
+    
+
+}
+.list p:hover{
+    color: brown;
+    scale: 1.07;
+}
