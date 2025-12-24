@@ -7,7 +7,7 @@ function ProdutCard({image1,title,price,image2}){
                     <img src={image1} alt=""/>
                     <h5>{title}<br />
                     </h5>
-                    <p>{price}</p>
+                    <p>INR ₹{price}</p>
                     <div className="card-footer">
                         <p>free delivey</p>
                         <img src={image2} alt="" />
