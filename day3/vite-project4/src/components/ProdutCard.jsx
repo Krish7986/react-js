@@ -1,4 +1,4 @@
-
+// CARD OF LIST ITEMS
 function ProdutCard({image1,title,price,image2}){
     return(
         <div>

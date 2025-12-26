@@ -1,3 +1,10 @@
+//  MAIN PAGE OF WEB PAGE WHEN CREATE CARDS IN HTML MUTLIPLE DIV TO OCCUPIES MORE SPACE AND TIME
+// BY USING REACT WE REDUCE MEMORY USAGE IN REACT WE HAVE FEATURE CODE REUSEABILITY
+// IN REACT THE TYPE CALLED LIST RENDERING IT WORK LIKE LOOP ONCE CREARE CARD USE MULTIPLE TIMES
+
+
+// LIST RENDERING  ---
+
 import ProductCard from "./ProdutCard"
 import "./index.css"
 import audio from "../vedio/Armani.mp4"
@@ -67,28 +74,14 @@ const products = [
     title: "Regular floral Shirt"
   
 },
-{
-    imag1: "https://th.bing.com/th/id/OIP.J0Bfq3vXgWzBO_Nxtb-qGwHaHa?w=204&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-    imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
-    price: 1999,
-    title: "PUMA casuals t-shirt"
-  },
-  {
-    imag1: "https://th.bing.com/th/id/OIP.J0Bfq3vXgWzBO_Nxtb-qGwHaHa?w=204&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-    imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
-    price: 1999,
-    title: "PUMA casuals t-shirt"
-  },
   
 
 ];
-<<<<<<< HEAD
 
+// FUNCTION WORKS LIST RENDERING
 
-function Productlist() {
-=======
 function ProductList() {
->>>>>>> ccc0d3d0df2e9fefecc90d9f4de57af7ad1b92dd
+
   return (
     <section className="main-card" >
       {products.map((item, index) => (
@@ -104,14 +97,11 @@ function ProductList() {
   );
 }
 
-export default Productlist;
+export default ProductList;
 
+// MEDIA VEDIO PATH
 export function Content1(){
-  return(
-<<<<<<< HEAD
-    <section>
-      <p>hello</p>
-=======
+  return (
     <section className="media">
       {/* <video controls autoPlay>
         <source src="Armani.mp4"/>
@@ -125,8 +115,23 @@ export function Content1(){
       <h2>ARMANI EXCHANGE</h2>
       <p>Known for its cutting-edge designs and high-quality craftsmanship</p>
       </div>
->>>>>>> ccc0d3d0df2e9fefecc90d9f4de57af7ad1b92dd
     </section>
   )
 }
+
+export function Content2() {
+  return (
+    <footer className="footer-card">
+      <h3>FashionWear</h3>
+      <p>© 2025 FashionWear. All rights reserved.</p>
+      <div className="fotter-a">
+        <a href="#" >Home</a>
+        <a href="#">Shop</a>
+        <a href="#" >Contact</a>
+      </div>
+    </footer>
+  );
+}
+
+
 

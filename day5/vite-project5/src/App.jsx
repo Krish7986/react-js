@@ -1,4 +1,4 @@
-import { State } from "./compound/State"
+import {State} from "./compound/State"
 
 function App() {
 

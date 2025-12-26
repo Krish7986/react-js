@@ -119,3 +119,21 @@
     font-style: italic;
     font-family: serif;
 }
+.footer-card{
+    display: grid;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+.footer-card{
+    display: grid;
+}
+
+
+.fotter-a{
+
+    display: flex;
+    row-gap: 50px;
+
+    
+}
