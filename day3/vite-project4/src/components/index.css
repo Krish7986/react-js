@@ -8,6 +8,7 @@
     font-size: large;
     font-weight: bolder;
     padding: 30px;
+    width: 100%;
     
 }
 .card {
@@ -42,7 +43,6 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: larger;
-    color: grey;
     display: grid;
     padding-left: 10px;
     margin: 5px 0;

@@ -70,7 +70,7 @@ const products = [
 ];
 
 
-function ProductList() {
+function Productlist() {
   return (
     <section className="main-card" >
       {products.map((item, index) => (
@@ -86,12 +86,12 @@ function ProductList() {
   );
 }
 
-export default ProductList;
+export default Productlist;
 
-function Content1(){
+export function Content1(){
   return(
-    <Section>
-      <p></p>
-    </Section>
+    <section>
+      <p>hello</p>
+    </section>
   )
 }

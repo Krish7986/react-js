@@ -1,7 +1,8 @@
 
 import Bottom from "./components/Bottom"
 import Nav from "./components/Nav"
-import ProductList from "./components/productlist"
+import ProductList,{Content1} from "./components/ProductList"
+
 function App() {
 
 
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Bottom />
       <ProductList />
+      <Content1 />
     </div>
       
       
