@@ -1,4 +1,6 @@
 import ProductCard from "./ProdutCard"
+import "./index.css"
+import audio from "../vedio/Armani.mp4"
 const products = [
   {
     imag1: "https://th.bing.com/th/id/OIP.xaqdiWtJJpuv-Hx0f-RK8QHaJ4?w=208&h=277&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
@@ -22,7 +24,7 @@ const products = [
     imag1: "https://cdn.shopify.com/s/files/1/0752/6435/files/IMG_0533_7b3164e7-051d-4ac2-af08-483e146ba525_900x.jpg?v=1743582983",
     imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
     price: 5999,
-    title: "REGULAR FIT FLORAL PRINT SHIRT"
+    title: "Regular fit shirt"
   },
   {
     imag1: "https://th.bing.com/th/id/OIP.L3-Ws-nwY7BPNneYpKsTSQHaHu?w=208&h=217&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
@@ -62,15 +64,31 @@ const products = [
     imag1: "https://cdn.shopify.com/s/files/1/0752/6435/files/IMG_0533_7b3164e7-051d-4ac2-af08-483e146ba525_900x.jpg?v=1743582983",
     imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
     price: 5999,
-    title: "REGULAR FIT FLORAL PRINT SHIRT"
+    title: "Regular floral Shirt"
   
-}
+},
+{
+    imag1: "https://th.bing.com/th/id/OIP.J0Bfq3vXgWzBO_Nxtb-qGwHaHa?w=204&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
+    price: 1999,
+    title: "PUMA casuals t-shirt"
+  },
+  {
+    imag1: "https://th.bing.com/th/id/OIP.J0Bfq3vXgWzBO_Nxtb-qGwHaHa?w=204&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
+    price: 1999,
+    title: "PUMA casuals t-shirt"
+  },
   
 
 ];
+<<<<<<< HEAD
 
 
 function Productlist() {
+=======
+function ProductList() {
+>>>>>>> ccc0d3d0df2e9fefecc90d9f4de57af7ad1b92dd
   return (
     <section className="main-card" >
       {products.map((item, index) => (
@@ -90,8 +108,25 @@ export default Productlist;
 
 export function Content1(){
   return(
+<<<<<<< HEAD
     <section>
       <p>hello</p>
+=======
+    <section className="media">
+      {/* <video controls autoPlay>
+        <source src="Armani.mp4"/>
+      </video> */}
+
+      <video controls>
+        <source src={audio}/>
+      </video>
+    
+      <div className="media-">
+      <h2>ARMANI EXCHANGE</h2>
+      <p>Known for its cutting-edge designs and high-quality craftsmanship</p>
+      </div>
+>>>>>>> ccc0d3d0df2e9fefecc90d9f4de57af7ad1b92dd
     </section>
   )
 }
+
