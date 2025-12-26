@@ -66,7 +66,19 @@ const products = [
     price: 5999,
     title: "Regular floral Shirt"
   
-}
+},
+{
+    imag1: "https://th.bing.com/th/id/OIP.J0Bfq3vXgWzBO_Nxtb-qGwHaHa?w=204&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
+    price: 1999,
+    title: "PUMA casuals t-shirt"
+  },
+  {
+    imag1: "https://th.bing.com/th/id/OIP.J0Bfq3vXgWzBO_Nxtb-qGwHaHa?w=204&h=204&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+    imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
+    price: 1999,
+    title: "PUMA casuals t-shirt"
+  },
   
 
 ];
@@ -106,3 +118,4 @@ export function Content1(){
     </section>
   )
 }
+
