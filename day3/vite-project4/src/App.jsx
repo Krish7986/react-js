@@ -1,22 +1,20 @@
 
 import Bottom from "./components/Bottom"
 import Nav from "./components/Nav"
-import ProductList from "./components/productlist"
-import {Nav} from "./components/Nav"
-function App() {
+import ProductList,{Content1} from "./components/productList/"
 
+function App() {
 
   return (
     <>
-    <div style={{background:"lightblue"}}>
+    <div>
       <Nav />
       <Bottom />
+      <Content1 />
       <ProductList />
+      
 
     </div>
-      
-      
-  
     </>
   )
 }

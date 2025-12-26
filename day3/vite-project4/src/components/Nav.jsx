@@ -10,16 +10,3 @@ function Nav(){
     )
 }
 export default Nav
-
-
-export  function footer(){
-    return(
-        <div className="fotter">
-            <a href="">Contact</a>
-            <a href="">about</a>
-            <video controls>
-                <source src="Armani.mp4" />
-            </video>
-        </div>
-    )
-}
