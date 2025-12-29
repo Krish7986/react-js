@@ -6,18 +6,20 @@ export class State extends React.Component{
         this.state = {
             greeting : "hello"
         }
+        this.handelevent = this.handelevent.bind(this)
     }
     handelevent(){
         this.setState({
             greeting : "welcome to breakage"
         })
+    
 
     }
     render(){
         return(
             <div>
                 <h1>{this.state.greeting}</h1>
-                <button onClick={this.handelevent()}>click</button>
+                <button onClick={this.handelevent}>click</button>
             </div>
         )
     }

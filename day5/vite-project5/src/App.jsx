@@ -1,4 +1,5 @@
 import {State} from "./compound/State"
+import {State2} from "./compound/State2"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
     <State />
+    <State2 />
     </>
   )
 }
