@@ -14,7 +14,7 @@ function ProdutCard({image1,title,price,image2}){
                         </div>
                         
                     </div>
-                </div>
+        </div>  
                 </section>
         </div>
     )

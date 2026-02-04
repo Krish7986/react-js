@@ -14,7 +14,7 @@ const products = [
     imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",
     price: `59,999`,
     title: "Mens Casual"
-  },
+  },  
   {
     imag1:"https://th.bing.com/th/id/OIP.iHxwDopJKW_zqnhk4tcPWAHaJZ?w=208&h=265&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
     imag2:"https://tse4.mm.bing.net/th/id/OIP.5DqmxtEItCOat7E5qxxocgHaHa?cb=ucfimg2&ucfimg=1&w=750&h=750&rs=1&pid=ImgDetMain&o=7&rm=3",

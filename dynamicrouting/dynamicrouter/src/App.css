@@ -1,0 +1,70 @@
+/* App theme */
+:root {
+  --accent-1: #ff6b6b;
+  --accent-2: #845ef7;
+  --accent-3: #20c997;
+  --accent-4: #ffd43b;
+  --ink-900: #1c1f2a;
+}
+
+body {
+  background: radial-gradient(circle at 10% 20%, #fff1f2 0%, #f4f3ff 35%, #e7f6ff 70%, #f1fff7 100%);
+  color: var(--ink-900);
+}
+
+.app-shell {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.55));
+}
+
+.app-shell header {
+  background: linear-gradient(90deg, #ffffff 0%, #f3f0ff 50%, #fff7e6 100%);
+}
+
+.app-shell .card {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.app-shell .card-title {
+  color: #3b2f96;
+}
+
+.app-shell .list-group-item {
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  background: #ffffff;
+  box-shadow: 0 6px 14px rgba(45, 35, 95, 0.08);
+  font-weight: 600;
+}
+
+.app-shell .list-group-item:hover {
+  background: #f8f3ff;
+}
+
+.app-shell .btn-primary {
+  background: linear-gradient(120deg, var(--accent-2), var(--accent-1));
+  border: none;
+  box-shadow: 0 10px 20px rgba(132, 94, 247, 0.25);
+}
+
+.app-shell .btn-outline-secondary {
+  border-color: #6c63ff;
+  color: #6c63ff;
+}
+
+.app-shell .btn-outline-secondary:hover {
+  background: #efeaff;
+  color: #3b2f96;
+}
+
+.app-shell .alert-info {
+  background: linear-gradient(120deg, rgba(32, 201, 151, 0.15), rgba(132, 94, 247, 0.15));
+  border: 1px solid rgba(32, 201, 151, 0.3);
+  color: #1f7a65;
+}
+
+.app-shell .badge.text-bg-light {
+  background: linear-gradient(120deg, rgba(255, 212, 59, 0.25), rgba(255, 107, 107, 0.2));
+  border: 1px solid rgba(255, 107, 107, 0.3);
+}
